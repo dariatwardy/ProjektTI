@@ -1,0 +1,20 @@
+#zegar {
+    width: 100%;
+    height: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--ciemnyfiolet);
+    animation: colors 10s infinite;
+}
+
+@keyframes colors {
+    0% {
+        color: var(--ciemnyfiolet);
+    }
+
+    50% {
+        color: var(--bialy);
+    }
+}

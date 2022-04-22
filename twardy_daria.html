@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <title>Tequila Twardy</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Strona internetowa poświęcona Tequili Twadrdy, psu rasy Golden Retriever">
+  <meta name="keywords" content="Pies, Golden Retriever, Tequila, Tequila Twardy, Dog, Golden">
+  <meta name="author" content="Daria Twardy">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="Images/Tekila.jpg" />
+  <link rel="stylesheet" media="screen" href="Styles/styles.css" />
+  <link rel="stylesheet" media="screen" href="Styles/styl_menu_gorne.css">
+  <link rel="stylesheet" media="screen" href="Styles/styl_menu_boczne.css">
+  <link rel="stylesheet" media="screen" href="Styles/styl_zegar.css">
+  <link rel="stylesheet" media="screen" href="Styles/style_przycisk.css">
+  <link rel="stylesheet" media="screen" href="Styles/style_os_czasu.css">
+  <link rel="stylesheet" media="screen" href="Styles/styl_flip_card.css">
+  <link href="./CSS/all.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/19a8f60fec.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/86a5cd3062.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="JS/zegar.js"></script>
+
+  <style>
+
+  </style>
+</head>
+
+<body style="margin: 0px" onload="startTimer()">
+
+  <div class="landing_page">
+    <img src="Images/Landing_page.JPG" alt="Landing Page" />
+    <span id="glowny_napis">Tequila Twardy</span>
+
+  </div>
+
+
+  <div class="side-menu-container">
+    <nav class="side-menu">
+      <a class="toSec1 jqtosec1">
+        <div><i class="fa-solid fa-paw"></i></div>
+      </a>
+      <a class="toSec2 jqtosec2">
+        <div><i class="fas fa-question"></i></div>
+      </a>
+      <a class="toSec3 jqtosec3">
+        <div><i class="fa-solid fa-image"></i></div>
+      </a>
+      <a class="toSec4 jqtosec4">
+        <div><i class="fas fa-address-card"></i></div>
+      </a>
+    </nav>
+  </div>
+
+  <div class="button-container">
+    <a class="button">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <button onclick="myFunction()">
+
+      <i class="fa-solid fa-moon"></i>
+
+    </button>
+  </div>
+
+  <div id="Główne_pojemniki" class="container-main container">
+
+    <header class="page-header">
+
+      <div id="logo" class="logo">
+        <span id="tytul_strony">Tequila Twardy</span>
+        <img id="image-logo" alt="logo-Gwint" src="Images/Tekila.jpg" width="55" height="55">
+      </div>
+
+      <nav class="menu-gorne">
+
+        <a id="przycisk1" class="jqtosec1">
+          <i id="ikona1" class="fa-solid fa-paw"></i>
+          <span id="span1">Home</span>
+        </a>
+        <a id="przycisk2" class="jqtosec2">
+          <i id="ikona2" class="fa-solid fa-question"></i>
+          <span id="span2">About</span>
+        </a>
+        <a id="przycisk3" class="jqtosec3">
+          <i id="ikona3" class="fa-solid fa-image"></i>
+          <span id="span3">Galery</span>
+        </a>
+        <a id="przycisk4" class="jqtosec4">
+          <i id="ikona4" class="fa-solid fa-address-card"></i>
+          <span id="span4">Contact</span>
+        </a>
+
+      </nav>
+
+    </header>
+    <hr />
+
+
+
+
+    <div id="Sekcja1" class="container">
+      <h2>Najpiękniejszy pies na świecie</h2>
+      <h3>10-latka rasy golden retriever podbija świat!</h3>
+
+      <p>Tequila to piękna pisnka zamieszkująca miasto Kraków. Ciężko nie zwrócić na nią uwagi na ulicy, skoro to tak
+        słodkie stworzenie. Aktualnie mocno udziela się w social mediach i wielu z Was ją kojarzy.
+        Strona ta poświęcona jest w 100% informacjom na jej temat. Dowiesz się skąd pochodzi, co lubi robić, ile ma lat,
+        a także odnajdziesz tu linki do wszystkich jej social mediów!
+      </p>
+      <p> </p>
+      <span>Czytaj dalej aby dowiedzieć się o niej więcej...</span>
+    </div>
+
+    <hr />
+
+    <div id="Sekcja2" class="container">
+
+      <h2>Krótka historia</h2>
+      <p>
+        Tequila urodziła się 7 pażdziernika 2011 roku na podkarpaciu. Po ponad 2 miesiącach, 22 grudnia, trafiła do
+        swojego nowego, prawdziwego domu.
+        Miała być prezentem dla dwóch dziewczynek, Darii i Natalki, stała się jednak czymś więcej, członkiem rodziny!
+        <br />
+
+        Imię Tequila zostało wybrane przez Natalkę, inspiracją był stary serial z 1992 roku o nazwie "Tequila i
+        Bonetti". W serialu tym Tequila to pies, który jest parterem policjanta w Kalifornii.
+        Spędziła ona 9 lat swojego życia na wsi w Bieszczadach. Jej hobby to kopanie w ziemii i polowanie na dzikie
+        zwierzęta.
+      </p>
+      <div id="Obrazek1">
+
+        <img class="obrazki"
+          src="https://static.kb.pl/media/uploads/media_image/auto/entry-content/6037/desktop/cena-golden-retrivera.jpg"
+          alt="Mała Tequila" />
+        <p>
+          <a
+            href="https://static.kb.pl/media/uploads/media_image/auto/entry-content/6037/desktop/cena-golden-retrivera.jpg">Link
+            do zdjęcia</a>
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <hr />
+    <div id="Sekcja3" class="container">
+
+      <h2>Dalsze losy Tesi</h2>
+      <p>
+        Po 9 wspaniałych latach spędzonych na wsi, Tequila wraz z Natalką przeprowadziła się do Krakowa. Stała się
+        trochę leniwa i chciała ciągle przebywać z ludźmi, a w Krakowie mogła to robić.
+        <br />
+
+        Od dwóch lat mieszka w dzielnicy Bronowice, chodzi codziennie na spacery i do parków dla psów. Dostaje wiele
+        uwagi od swoich kochających rodziców, lepsze jedzonko i dużo smaczków.
+
+      </p>
+
+    </div>
+
+    <hr />
+
+    <div id="Sekcja4" class="container">
+
+      <h2>Dlaczego ona?</h2>
+      <p>
+        Właściciele zdecydowali się wybrać ją z kilku powodów. Pierwszym była rasa, która była wymarzoną od lat przez
+        Darię. Kolejnym powodem było to, że Tequila została jako ostatni szczeniak ze swojego rodzeństwa w hodowli. Nikt
+        nie chciał jej wziąć, ponieważ miała złamaną łapkę i lekko wykrzywiony nosek. Jej nowi właściciele zakochali się
+        niej jednak od razu! Sami spójrzcie...
+
+      </p>
+
+      <div id="Obrazek2">
+
+        <img class="obrazki" id="img" src="Images/Tekila1.JPG" alt="Pies z Tequila" />
+
+      </div>
+
+      <hr />
+      <div class="timeline ">
+        <div class="container2 left">
+          <div class="content ">
+            <h2>2011</h2>
+            <img class="obrazki" src="Images/2011.JPG" alt="Tequila 2011" />
+          </div>
+        </div>
+
+        <div class="container2 right">
+          <div class="content ">
+            <h2>2013</h2>
+            <img class="obrazki" src="Images/2013.JPG" alt="Tequila 2013" />
+          </div>
+        </div>
+
+        <div class="container2 left">
+          <div class="content ">
+            <h2>2015</h2>
+            <img class="obrazki" src="Images/2015.JPG" alt="Tequila 2015" />
+          </div>
+
+        </div>
+        <div class="container2 right">
+          <div class="content ">
+            <h2>2018</h2>
+            <img class="obrazki" src="Images/2018.JPG" alt="Tequila 2018" />
+          </div>
+        </div>
+        <div class="container2 left">
+          <div class="content ">
+            <h2>2020</h2>
+            <img class="obrazki" src="Images/2020.JPG" alt="Tequila 2020" />
+          </div>
+        </div>
+        <div class="container2 right">
+          <div class="content ">
+            <h2>2022</h2>
+            <img class="obrazki" src="Images/Tekila.jpg" alt="Tequila 2022" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr />
+
+    <div id="Sekcja5" class="container">
+
+      <div id="Listy">
+
+        <div id="Lista1">
+
+          <b>Jaka jest i co lubi?</b>
+          <ul>
+            <li>Przyjazna</li>
+            <li>Kocha zabawy z ludźmi</li>
+            <li>Zima to jej ulubiona pora roku</li>
+            <li>Uwielbia głaskanie i jedzenie</li>
+            <li>Kocha pływać</li>
+            <li>Uparta</li>
+            <li>Atencyjna</li>
+            <li>Nie lubi zostawać sama w domu</li>
+            <li>Leniwa</li>
+          </ul>
+
+        </div>
+
+        <div id="Lista2">
+
+          <b>Co najbardziej lubi jesc?</b>
+          <ol>
+            <li>Wszystko co jedzą jej właściciele</li>
+            <li>Kostki</li>
+            <li>Smaczki dla piesków</li>
+            <li>Maliny</li>
+            <li>Orzechy</li>
+            <li>Galaretki z nóżek</li>
+            <li>Resztki z obiadu</li>
+            <li>Parówki</li>
+            <li>Mleko</li>
+          </ol>
+
+        </div>
+
+      </div>
+
+      <div id="Tabela1">
+
+        <table class="tabele">
+          <caption>Wiek i waga</caption>
+          <thead>
+            <tr>
+              <td>Rok</td>
+              <td>2011</td>
+              <td>2016</td>
+              <td>2022</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Wiek (psie lata)</td>
+              <td>3 mies.</td>
+              <td>4 lata</td>
+              <td>10 lat</td>
+            </tr>
+            <tr>
+              <td>Waga</td>
+              <td>9 kg</td>
+              <td>32 kg</td>
+              <td>40 kg</td>
+            </tr>
+            <tr>
+              <td>Wiek (ludzkie lata)</td>
+              <td>3 lata</td>
+              <td>33 lata</td>
+              <td>75 lat</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+    </div>
+
+    <hr />
+
+    <div id="Sekcja6" class=container>
+
+      <h2>Social media:</h2>
+      <address>
+        <ul>
+          <li><img class="address-icon circle" src="Images/iconmonstr-instagram-11-240.png" alt="Ikona instagram" />
+            <a href="https://www.instagram.com/tequilagoldenretriever"><b>Instagram:</b> @tequilagoldenretriever</a>
+          </li>
+          <li><img class="address-icon circle" src="images/iconmonstr-audio-20-240.png" alt="Ikona tiktok" />
+            <a href="https://www.tiktok.com/@goldentequila"><b>Tiktok::</b> @goldentequila</a>
+
+          </li>
+          <li><img class="address-icon circle" src="images/iconmonstr-facebook-5-240.png"
+              alt="Ikona facebook" /><b>Facebook:</b> Tequila Twardy</li>
+        </ul>
+      </address>
+
+    </div>
+
+    <hr />
+
+    <footer>
+      Daria Twardy, 2022 ©
+      <div id="zegar"></div>
+    </footer>
+
+  </div>
+
+
+  <script>
+    $(".jqtosec1").click(function () {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#Sekcja1").offset().top - 80
+      }, 2000);
+    });
+    $(".jqtosec2").click(function () {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#Sekcja2").offset().top - 80
+      }, 2000);
+    });
+    $(".jqtosec3").click(function () {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#Sekcja4").offset().top - 80
+      }, 2000);
+    });
+    $(".jqtosec4").click(function () {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $("#Sekcja6").offset().top - 80
+      }, 2000);
+    });
+    $(".button").click(function () {
+      $([document.documentElement, document.body]).animate({
+        scrollTop: 0
+      }, 2000);
+    });
+
+
+    $(document).ready(function () {
+      $(".side-menu-container").show();
+      $("header").hide();
+      $(".button-container").hide();
+      $(window).scroll(function () {
+        if (window.pageYOffset < window.innerHeight * 0.5) {
+          $("header").css("visibility", "hidden");
+          $(".side-menu-container").show("slow");
+          $(".button-container").hide("slow");
+
+        } else {
+          $("header").css("visibility", "visible");
+          $(".side-menu-container").hide("slow");
+          $(".page-header").show("slow");
+          $(".button-container").show("slow");
+        }
+      });
+    });
+
+
+    function displayNextImage() {
+      x = (x === images.length - 1) ? 0 : x + 1;
+      document.getElementById("img").src = images[x];
+    }
+    function startTimer() {
+      setInterval(displayNextImage, 3000);
+    }
+    var images = [], x = 0;
+    images[0] = "Images/Tekila1.JPG";
+    images[1] = "Images/Tekila2.jpg";
+    images[2] = "Images/Tekila3.JPG";
+    images[3] = "Images/Tekila4.JPG";
+    images[4] = "Images/Tekila5.jpg";
+    images[5] = "Images/Tekila6.JPG";
+    images[6] = "Images/Tekila7.jpg";
+    images[7] = "Images/Tekila8.jpg";
+
+    getTime();
+
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+
+
+    }
+  </script>
+
+</body>
+
+</html>
